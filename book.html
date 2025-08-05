@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book Now | GoRwanda</title>
+  <link rel="stylesheet" href="style.css" />
+   <header>
+    <div class="logo">GoRwanda</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="travel.html">Travel</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+      </ul>
+    </nav>
+  </header>
+</head>
+<body style="background-color: #011F26; color: white;">
+
+  <section class="book-section">
+  <div class="book-container fade-in">
+    <h2>Book Your Trip</h2>
+    <form class="book-form" action="https://formsubmit.co/gorwanda250@gmail.com" method="POST">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="destination">Destination</label>
+        <input type="text" id="destination" name="destination" placeholder="e.g., Bali, Paris, Kenya" required />
+      </div>
+
+      <div class="form-group">
+        <label for="type">Travel Type</label>
+        <select id="type" name="travel_type" required>
+          <option value="">Select one</option>
+          <option value="Luxury Vacation">Luxury Vacation</option>
+          <option value="Adventure Travel">Adventure Travel</option>
+          <option value="Romantic Getaway">Romantic Getaway</option>
+          <option value="Corporate Retreat">Corporate Retreat</option>
+          <option value="Cultural or Eco Trip">Cultural or Eco Trip</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="date">Preferred Date</label>
+        <input type="date" id="date" name="preferred_date" required />
+      </div>
+
+      <div class="form-group">
+        <label for="notes">Additional Notes</label>
+        <textarea id="notes" name="additional_notes" rows="4" placeholder="Tell us about your ideal trip..."></textarea>
+      </div>
+
+      <!-- Optional: disable CAPTCHA and redirect -->
+      <input type="hidden" name="_captcha" value="false" />
+
+      <button type="submit" class="book-btn">Submit Booking</button>
+    </form>
+  </div>
+</section>
+
+   <footer class="footer">
+  <div class="footer-content">
+    <div class="footer-logo">
+      <h3>GoRwanda</h3>
+      <p>Your trusted private travel agency for luxury, adventure, and unforgettable experiences.</p>
+    </div>
+
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="travel.html">Travel Types</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-social">
+      <h3>Connect</h3>
+      <p><i class="fa-regular fa-envelope"></i> gorwanda250@gmail.com</p>
+      <p><i class="fa-regular fa-phone"></i> +250 790 183 481</p>
+      <p><i class="fa fa-instagram"></i> <a href="https://www.instagram.com/gorwanda250_/#"" target="_blank">gorwanda250_</a></p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 GoRwanda. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+</body>
+</html>
+
